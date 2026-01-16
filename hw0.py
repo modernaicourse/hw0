@@ -19,6 +19,15 @@ with app.setup(hide_code=True):
     import pytest
     import subprocess
 
+    # Run this cell to download and install the necessary modules for the homework
+    subprocess.call(
+        [
+            "wget",
+            "-nc",
+            "https://raw.githubusercontent.com/modernaicourse/hw0/refs/heads/main/hw0_tests.py",
+        ]
+    )
+
     import os
     import mugrade
     import math
@@ -28,15 +37,6 @@ with app.setup(hide_code=True):
         submit_poly_add,
         submit_poly_mul,
         submit_poly_derivative,
-    )
-
-    # Run this cell to download and install the necessary modules for the homework
-    subprocess.call(
-        [
-            "wget",
-            "-nc",
-            "https://raw.githubusercontent.com/modernaicourse/hw0/refs/heads/main/hw0_tests.py",
-        ]
     )
 
 
