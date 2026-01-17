@@ -244,6 +244,9 @@ def primes(n):
     Output:
         list of primes up to (not including) n
     """
+    ### BEGIN YOUR CODE
+    pass
+    ### END YOUR CODE
 
 
 @app.function(hide_code=True)
