@@ -439,6 +439,7 @@ def poly_mul(p1, p2):
     """
     ### BEGIN YOUR CODE
     pass
+    ### END YOUR CODE
 
 
 @app.function(hide_code=True)
@@ -503,6 +504,7 @@ def poly_derivative(p):
     """
     ### BEGIN YOUR CODE
     pass
+    ### END YOUR CODE
 
 
 @app.function(hide_code=True)
