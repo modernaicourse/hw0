@@ -377,6 +377,9 @@ def poly_add(p1, p2):
     Output:
         Polynomial corresponding to the addition of p1 and p2
     """
+    ### BEGIN YOUR CODE
+    pass
+    ### END YOUR CODE
 
 
 @app.function(hide_code=True)
