@@ -291,13 +291,17 @@ def _():
     coefficients = [1, 0, 4, 3]
     ```
     would represent the polynomial
+
     $$3x^3 + 4x^2 + 1,$$
+
     the list
     ```python
     coefficients = [4, 3, 5]
     ```
     would represent the polynomial
+
     $$5x^2 + 3x + 4,$$
+
     and so on.  Any term of degree beyond the length of the list implicitly has coefficient zero.
 
     The class below contains the basic implementation (which is quite sparse, other than a few helper functions and a function that returns a string representation of the polynomial).  Note that you should _not_ change any of this code in the assignment.
@@ -362,9 +366,13 @@ def _():
     #### Problem 3a: Polynomial additiona
 
     Write the code to add together two polynomials.  Adding polynomials just involves adding the respective coefficients of the same degree.  For example, if you had two polynomials
+
     $$p_1(x) = 3x^3 + 4x^2 + 3, \quad p_2(x) = x^2 + 5x + 5$$
+
     then
+
     $$p_1(x) + p_2(x) = 3x^3 + 4x^2 + 5x + 8.$$
+
     Implement this logic in the function below.  Note that the "only" thing that's required to implement this is to construct a new set off polynomial coefficients corresponding to the addition, and return a new polynomial constructed from these coefficients.
     """)
     return
@@ -423,7 +431,9 @@ def _():
     #### Problem 3b: Polynomial multiplication
 
     Next implement a function that multiplies together two polynomials.  Multiplying polynomials involves multipling every term in the first polynomial with every term in the second, and adding together the results.  For example, for the polynomials
+
     $$p_1(x) = 3x^3 + 2x + 3, \quad p_2(x) = 2x^2 + 5$$
+
     their multiplication is given by
 
     $$\begin{split} p_1(x) \cdot p_2(x) & = (3x^3 + 2x + 3) \cdot 2x^2 + (3x^3 + 2x + 3) \cdot 5 \\
