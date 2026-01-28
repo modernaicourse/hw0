@@ -64,10 +64,10 @@ def _():
     Jupyter, marimo is open-source, but unlike Jupyter is is a *reactive* notebook,
     keeping code and outputs in sync.
 
-    Using marimo is optional. You can run marimo in molab, an online service similar to Google Colab, or locally. You will implement homework functions in this notebook, then test your implementations, first locally and then by submitting to the autograder.
-
-    If you are using molab, begin by forking this notebook into your workspace by clicking the
-    "Fork and Run" button at the top right of this page.
+    Using marimo is optional. You can run marimo in molab, an online service
+    similar to Google Colab, or locally. You will implement homework functions
+    in this notebook, then test your implementations, first locally and then by
+    submitting to the autograder.
     """)
     return
 
